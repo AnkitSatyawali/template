@@ -1,0 +1,392 @@
+.grid-container {
+	display:grid;
+	width:100%;
+	position: relative;
+}
+.grid-cont{
+	display: grid;
+	text-align: center;
+	color:black;
+	padding:60px;
+	padding-left: 200px;
+	padding-right: 200px;
+	width:100%;
+	display:flex;
+}
+.inner1 {
+	width:70%;
+    margin:auto;
+}
+#cont1 {
+	font-size: 30px;    
+}
+* {box-sizing: border-box}
+body {font-family: Nunito, sans-serif;
+ margin:0}
+.mySlides {display: none;width:100%;position:relative;}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: 0;
+}
+.head {
+	position: fixed;
+	height:50px;
+	width: 80%;
+	margin-top:20px;
+	margin-left:120px;
+	background-color: white;
+	border-radius: 2rem
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ }
+
+li {
+  float: left;
+}
+.brand {
+	border-radius:2rem;
+	color:white;
+}
+.brand:hover {
+	text-decoration: none;
+}
+
+li a {
+  display: block;
+  color:grey;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color:black;
+}
+img {
+	width:100%;
+	height:100vh;
+	background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    );
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: px;
+  margin-top: -22px;
+  color: black;
+  font-size: 22px;
+  transition: 0.4s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  opacity:0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.text {
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  margin-bottom:40px;
+  text-align: left;
+  float:left;
+  height:auto;
+}
+.inline {
+  display:inline-block;
+  width:40%;
+}
+button {
+	height:6vh;
+	border:2px solid white;
+	width:50%;
+	float:right;
+	font-size:15px;
+	font-weight: bold;
+	color:white;
+	 background-color: Transparent;
+}
+button:hover{
+	background-color: white;
+	color:black;
+	cursor: pointer;
+}
+
+.Short{
+	font-size: 20px;
+}
+.Long {
+	font-size: 40px;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.0s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+.shift {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.0s;
+  animation-name: shift;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes shift{
+	from {padding-left: 110px;opacity: 0}
+	to {padding-left:150px;opacity: 1}
+}
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+.grid-conta{
+	display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 30% 30%; 
+  grid-gap: 30px;
+  padding: 60px;
+  padding-top:40px;
+  height:auto;
+}
+.image {
+	height:50%;
+}
+.heading {
+	text-align: center;
+}
+.bod {
+	text-align: left;
+}
+.third {
+	width:100%;
+	position:relative;
+	padding-top: 20px;
+	text-align: center;
+	color:white;
+}
+.third > img {
+	width:100%;
+	height: 80vh;
+}
+.banner1 {
+	position: absolute;
+  left: 50%;
+  top:50%;
+  line-height: 0.3rem;
+  transform:translate(-50%,-50%);
+}
+.b1{
+	font-size: 70px;
+}
+.b2{
+	font-size: 20px;
+}
+.shifttop{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.0s;
+  animation-name: shifttop;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes shifttop{
+	from {padding-bottom:100px;opacity: 0}
+	to {padding-bottom:150px;opacity: 1}
+}
+#cont2 {
+	font-size: 18px;
+}
+.fourth {
+	width:100%;
+	display: grid;
+	grid-template-columns: 49% 49%;
+	grid-column-gap: 25px;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: center;
+	margin-top: 20px;
+}
+.fourth img {
+	height:110vh;
+}
+.fifth {
+	width:100%;
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 15px;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: center;
+	margin-top: 20px;
+}
+.fifth img {
+	height : 125vh;
+}
+.sixth {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	padding-top:100px;
+	
+}
+.sixth img {
+	filter:brightness(0.5);
+	max-height:90vh;
+	width:100%;
+	height:auto;
+}
+.w2 {
+	position:absolute;
+	color:white;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.foot1 {
+	background-color: #E0E0E0;
+	width:100%;
+	text-align: center;
+	height:15vh;
+    font-size:20px;
+    color:#424242;
+    letter-spacing: 10px;
+    display: flex;
+}
+.foot1 > div {
+	margin :auto;
+}
+.foot2 {
+	background-color: #1D1D25;
+	width:100%;
+	text-align: center;
+	height: 35vh;
+	display:flex;
+}
+.foot2 > div {
+	margin:auto;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {color:black;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.icon {
+	display:none;
+}
+@media screen and (max-width: 1000px) {
+  .topnav li:not(:first-child) {display: none;}
+  .topnav li.icon {
+    float: right;
+    display: block;
+  }
+  .text {
+  	padding-left: 80px;
+  }
+  .head {
+  	margin-left: 70px;
+  }
+  .inline {
+  	width:100%;
+  	display: block;
+  }
+  button {
+  	float:left;
+  	width:200px;
+  }
+  .grid-cont {
+  	padding-left: 60px;
+  	padding-right:60px;
+  }
+  .item1 {
+  		grid-column-start: 1;
+  		grid-column-end: 4;
+  		width:80%;
+  		margin:auto;
+  	}
+  .fourth div {
+  	grid-column-start: 1;
+  	grid-column-end: 3;
+   }
+   .fourth img {
+   	height:130vh;
+   }
+   .w2 {
+   	font-size: 20px;
+   	transform : translate(-50%,-30%);
+
+   }
+  @keyframes shifttop{
+	from {padding-bottom:50px;opacity: 0}
+	to {padding-bottom:100px;opacity: 1}
+
+  @keyframes shift{
+	from {padding-left: 80px;opacity: 0}
+	to {padding-left:110px;opacity: 1}
+}
+}
+@media screen and (max-width: 800px) {
+	.fourth img {
+   	 width:100%;
+   }
+   .fourth {
+   	padding-left: 50px;
+   	padding-right: 50px;
+   }
+   .fifth {
+   	padding-left:50px;
+   	padding-right: 50px;
+   }
+
+}
+@media screen and (max-width: 600px) {
+	.inner1{
+		width:90%;
+	}
+	.head {
+		margin-left: 50px;
+	}
+	.grid-cont {
+		padding-left:0px;
+		padding-right: 0px;
+	}
+}
+.topnav {
+	overflow:hidden;
+}
