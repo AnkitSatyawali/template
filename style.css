@@ -310,6 +310,11 @@ button:hover{
 .icon {
 	display:none;
 }
+.newCarasoul{
+	width: 80%;
+	border: 2px solid saddlebrown;
+	font-style: italic;
+}
 @media screen and (max-width: 1000px) {
   .topnav li:not(:first-child) {display: none;}
   .topnav li.icon {
@@ -375,17 +380,7 @@ button:hover{
    }
 
 }
-.imageZoom{
-	margin:0px auto;
-}
-.imageZoom{
-	transform: matrix();
-	font-kerning: auto;
-}
-.newFoot{
-	width:100%;
-	padding : 1rem 1rem 1rem 1rem;
-}
+
 @media screen and (max-width: 600px) {
 	.inner1{
 		width:90%;
