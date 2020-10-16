@@ -382,6 +382,10 @@ button:hover{
 	transform: matrix();
 	font-kerning: auto;
 }
+.newFoot{
+	width:100%;
+	padding : 1rem 1rem 1rem 1rem;
+}
 @media screen and (max-width: 600px) {
 	.inner1{
 		width:90%;
