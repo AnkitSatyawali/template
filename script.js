@@ -15,12 +15,13 @@ clearTimeout(timer);
 }
 function showSlides() {
   var i;
+  var newPattern=0;
   var slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
   }
   if(check === 1)
-  slideIndex++;
+  {slideIndex++;newPattern=1;}
   else
   slideIndex--;
   if (slideIndex > slides.length) {slideIndex = 1}    
