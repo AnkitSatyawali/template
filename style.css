@@ -375,6 +375,13 @@ button:hover{
    }
 
 }
+.imageZoom{
+	margin:0px auto;
+}
+.imageZoom{
+	transform: matrix();
+	font-kerning: auto;
+}
 @media screen and (max-width: 600px) {
 	.inner1{
 		width:90%;
